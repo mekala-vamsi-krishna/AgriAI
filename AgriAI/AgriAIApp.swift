@@ -9,9 +9,17 @@ import SwiftUI
 
 @main
 struct AgriAIApp: App {
+    
+    @AppStorage("isOnboarding") var isOnboarding: Bool = true
+    
     var body: some Scene {
         WindowGroup {
-            DocumentUploadView()
+            if isOnboarding {
+                OnBoardingView()
+            } else {
+                ContentView()
+//                DocumentUploadView()
+            }
         }
     }
 }

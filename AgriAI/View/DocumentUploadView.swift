@@ -1,13 +1,9 @@
 //
-//  ContentView.swift
+//  DocumentUploadView.swift
 //  AgriAI
 //
-//  Created by Mekala Vamsi Krishna on 6/3/25.
+//  Created by Mekala Vamsi Krishna on 6/20/25.
 //
-
-import SwiftUI
-import UniformTypeIdentifiers
-import PDFKit
 
 import SwiftUI
 import UniformTypeIdentifiers
@@ -158,7 +154,7 @@ struct DocumentUploadView: View {
                         }
                     )
                 }
-                .navigationTitle("AgriAI")
+                .navigationTitle("Home")
                 .navigationBarTitleDisplayMode(.large)
                 .fileImporter(isPresented: $showingDocumentPicker,
                               allowedContentTypes: [.pdf, .plainText, .rtf, .data],
@@ -360,24 +356,3 @@ struct DocumentUploadView_Previews: PreviewProvider {
         DocumentUploadView()
     }
 }
-
-struct RotatingGearsView: View {
-    @State private var isAnimating = false
-
-    var body: some View {
-        HStack(spacing: -10) {
-            Image(systemName: "gearshape")
-                .rotationEffect(.degrees(isAnimating ? 360 : 0))
-                .animation(.linear(duration: 3.0).repeatForever(autoreverses: false), value: isAnimating)
-
-            Image(systemName: "gearshape.fill")
-                .rotationEffect(.degrees(isAnimating ? -360 : 0))
-                .animation(.linear(duration: 2.0).repeatForever(autoreverses: false), value: isAnimating)
-        }
-        .onAppear {
-            isAnimating = true
-        }
-        .foregroundColor(.white)
-    }
-}
-
