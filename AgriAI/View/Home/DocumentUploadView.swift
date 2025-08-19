@@ -166,7 +166,7 @@ struct DocumentUploadView: View {
                         .ignoresSafeArea()
                     
                     VStack(spacing: 20) {
-                        RotatingGearsView()
+                        RotatingGearsLoadingView()
                             .scaleEffect(1.5)
                         
                         Text("Processing...")

@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC9ABE1E2E54F86700747C83 /* WeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9ABE1D2E54F86700747C83 /* WeatherView.swift */; };
+		AC9ABE202E54F89000747C83 /* InsightsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9ABE1F2E54F89000747C83 /* InsightsView.swift */; };
+		AC9ABE252E54FA8800747C83 /* RotatingGearsLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9ABE242E54FA8800747C83 /* RotatingGearsLoadingView.swift */; };
+		AC9ABE272E54FAD600747C83 /* LeafLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9ABE262E54FAD600747C83 /* LeafLoadingView.swift */; };
+		AC9ABE292E54FAFC00747C83 /* TreeLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9ABE282E54FAFB00747C83 /* TreeLoadingView.swift */; };
+		AC9ABE2C2E54FBE200747C83 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9ABE2B2E54FBE200747C83 /* TabBarView.swift */; };
 		ACACF1562E056C2D002D6EAF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACACF14B2E056C2D002D6EAF /* Preview Assets.xcassets */; };
 		ACACF1572E056C2D002D6EAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACACF1502E056C2D002D6EAF /* Assets.xcassets */; };
 		ACACF1582E056C2D002D6EAF /* AgriAIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACACF14E2E056C2D002D6EAF /* AgriAIApp.swift */; };
@@ -17,10 +23,15 @@
 		ACACF15D2E056C2D002D6EAF /* StartButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACACF1542E056C2D002D6EAF /* StartButtonView.swift */; };
 		ACACF15F2E056D7F002D6EAF /* DocumentUploadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACACF15E2E056D7F002D6EAF /* DocumentUploadView.swift */; };
 		ACACF1612E058D3D002D6EAF /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACACF1602E058D3D002D6EAF /* ProfileView.swift */; };
-		ACACF1632E058E39002D6EAF /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACACF1622E058E39002D6EAF /* CameraView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AC9ABE1D2E54F86700747C83 /* WeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherView.swift; sourceTree = "<group>"; };
+		AC9ABE1F2E54F89000747C83 /* InsightsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsightsView.swift; sourceTree = "<group>"; };
+		AC9ABE242E54FA8800747C83 /* RotatingGearsLoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotatingGearsLoadingView.swift; sourceTree = "<group>"; };
+		AC9ABE262E54FAD600747C83 /* LeafLoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeafLoadingView.swift; sourceTree = "<group>"; };
+		AC9ABE282E54FAFB00747C83 /* TreeLoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeLoadingView.swift; sourceTree = "<group>"; };
+		AC9ABE2B2E54FBE200747C83 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
 		ACACF14B2E056C2D002D6EAF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		ACACF14E2E056C2D002D6EAF /* AgriAIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgriAIApp.swift; sourceTree = "<group>"; };
 		ACACF14F2E056C2D002D6EAF /* AgriAIData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgriAIData.swift; sourceTree = "<group>"; };
@@ -31,7 +42,6 @@
 		ACACF1542E056C2D002D6EAF /* StartButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartButtonView.swift; sourceTree = "<group>"; };
 		ACACF15E2E056D7F002D6EAF /* DocumentUploadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentUploadView.swift; sourceTree = "<group>"; };
 		ACACF1602E058D3D002D6EAF /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
-		ACACF1622E058E39002D6EAF /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
 		ACE847772DEEA7C80025385B /* AgriAI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AgriAI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -46,6 +56,77 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AC9ABE212E54F9FD00747C83 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				ACACF14E2E056C2D002D6EAF /* AgriAIApp.swift */,
+				ACACF1512E056C2D002D6EAF /* ContentView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		AC9ABE222E54FA1F00747C83 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				AC9ABE2A2E54FB7100747C83 /* TabBar */,
+				AC9ABE232E54FA3100747C83 /* Loaders */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		AC9ABE232E54FA3100747C83 /* Loaders */ = {
+			isa = PBXGroup;
+			children = (
+				AC9ABE262E54FAD600747C83 /* LeafLoadingView.swift */,
+				AC9ABE282E54FAFB00747C83 /* TreeLoadingView.swift */,
+				AC9ABE242E54FA8800747C83 /* RotatingGearsLoadingView.swift */,
+			);
+			path = Loaders;
+			sourceTree = "<group>";
+		};
+		AC9ABE2A2E54FB7100747C83 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				AC9ABE2B2E54FBE200747C83 /* TabBarView.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		AC9ABE2D2E54FE4600747C83 /* OnBoarding */ = {
+			isa = PBXGroup;
+			children = (
+				ACACF1532E056C2D002D6EAF /* OnBoardingView.swift */,
+				ACACF1542E056C2D002D6EAF /* StartButtonView.swift */,
+			);
+			path = OnBoarding;
+			sourceTree = "<group>";
+		};
+		AC9ABE2E2E54FE5D00747C83 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				ACACF15E2E056D7F002D6EAF /* DocumentUploadView.swift */,
+				ACACF1522E056C2D002D6EAF /* DestinationView.swift */,
+				AC9ABE1D2E54F86700747C83 /* WeatherView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		AC9ABE2F2E54FE6F00747C83 /* Insights */ = {
+			isa = PBXGroup;
+			children = (
+				AC9ABE1F2E54F89000747C83 /* InsightsView.swift */,
+			);
+			path = Insights;
+			sourceTree = "<group>";
+		};
+		AC9ABE302E54FE8D00747C83 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				ACACF1602E058D3D002D6EAF /* ProfileView.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
 		ACACF14A2E056C2D002D6EAF /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -65,13 +146,10 @@
 		ACACF14D2E056C2D002D6EAF /* View */ = {
 			isa = PBXGroup;
 			children = (
-				ACACF1512E056C2D002D6EAF /* ContentView.swift */,
-				ACACF1622E058E39002D6EAF /* CameraView.swift */,
-				ACACF1602E058D3D002D6EAF /* ProfileView.swift */,
-				ACACF1532E056C2D002D6EAF /* OnBoardingView.swift */,
-				ACACF1542E056C2D002D6EAF /* StartButtonView.swift */,
-				ACACF1522E056C2D002D6EAF /* DestinationView.swift */,
-				ACACF15E2E056D7F002D6EAF /* DocumentUploadView.swift */,
+				AC9ABE2D2E54FE4600747C83 /* OnBoarding */,
+				AC9ABE2E2E54FE5D00747C83 /* Home */,
+				AC9ABE2F2E54FE6F00747C83 /* Insights */,
+				AC9ABE302E54FE8D00747C83 /* Profile */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -79,9 +157,10 @@
 		ACACF1552E056C2D002D6EAF /* AgriAI */ = {
 			isa = PBXGroup;
 			children = (
-				ACACF14E2E056C2D002D6EAF /* AgriAIApp.swift */,
+				AC9ABE212E54F9FD00747C83 /* App */,
 				ACACF14A2E056C2D002D6EAF /* Model */,
 				ACACF14D2E056C2D002D6EAF /* View */,
+				AC9ABE222E54FA1F00747C83 /* Components */,
 				ACACF14C2E056C2D002D6EAF /* Preview Content */,
 				ACACF1502E056C2D002D6EAF /* Assets.xcassets */,
 			);
@@ -177,13 +256,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC9ABE292E54FAFC00747C83 /* TreeLoadingView.swift in Sources */,
 				ACACF1612E058D3D002D6EAF /* ProfileView.swift in Sources */,
+				AC9ABE2C2E54FBE200747C83 /* TabBarView.swift in Sources */,
+				AC9ABE202E54F89000747C83 /* InsightsView.swift in Sources */,
 				ACACF1582E056C2D002D6EAF /* AgriAIApp.swift in Sources */,
 				ACACF1592E056C2D002D6EAF /* AgriAIData.swift in Sources */,
-				ACACF1632E058E39002D6EAF /* CameraView.swift in Sources */,
+				AC9ABE252E54FA8800747C83 /* RotatingGearsLoadingView.swift in Sources */,
 				ACACF15F2E056D7F002D6EAF /* DocumentUploadView.swift in Sources */,
 				ACACF15A2E056C2D002D6EAF /* ContentView.swift in Sources */,
 				ACACF15B2E056C2D002D6EAF /* DestinationView.swift in Sources */,
+				AC9ABE1E2E54F86700747C83 /* WeatherView.swift in Sources */,
+				AC9ABE272E54FAD600747C83 /* LeafLoadingView.swift in Sources */,
 				ACACF15C2E056C2D002D6EAF /* OnBoardingView.swift in Sources */,
 				ACACF15D2E056C2D002D6EAF /* StartButtonView.swift in Sources */,
 			);

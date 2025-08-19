@@ -43,8 +43,6 @@ struct ProfileView: View {
             Spacer()
         }
         .frame(maxWidth: .infinity)
-        .padding()
-        .background(Color(.systemGroupedBackground).ignoresSafeArea())
     }
 }
 
