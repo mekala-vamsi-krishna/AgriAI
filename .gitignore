@@ -1,0 +1,57 @@
+# Xcode
+.DS_Store
+*.xcodeproj/xcuserdata/
+*.xcodeproj/project.xcworkspace/
+*.xcworkspace/xcuserdata/
+*.xcworkspace/xcshareddata/
+!*.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings
+DerivedData/
+build/
+*.gcno
+*.gch
+*.memgraph
+*.dSYM/
+*.o
+*.lo
+*.la
+*.so
+*.dylib
+*.a
+*.app/
+*.ipa
+*.xcarchive/
+*.xccheckout/
+*.swiftpm/
+*.playground/
+*.playgroundbook/
+*.ibassets/
+*.xcassets/
+*.xcstickers/
+*.xctest/
+*.xcuserdatad/
+*.pbxuser
+*.perspectivev3
+*.xcuserstate
+
+# CocoaPods
+Pods/
+!Pods/Manifest.lock
+
+# Carthage
+Carthage/Build/
+
+# Swift Package Manager
+.swiftpm/
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
+
+# Code Injection
+iOSInjectionProject/
+
+# Other
+.DS_Store
+.localized

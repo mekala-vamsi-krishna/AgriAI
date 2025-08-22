@@ -19,7 +19,7 @@ struct ContentView: View {
                 Group {
                     switch selectedTab {
                     case "house":
-                        DocumentUploadView()
+                        HomeView()
                     case "leaf":
                         InsightsView()
                     case "person":

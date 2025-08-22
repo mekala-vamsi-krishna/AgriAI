@@ -1,0 +1,15 @@
+{
+  "ph": {
+    "acidic": { "range": "<6.0", "recommendation": "Soil acidic → Apply lime. Crops: Potato, Tea" },
+    "neutral": { "range": "6.0-7.5", "recommendation": "Soil neutral → Suitable for Wheat, Rice" },
+    "alkaline": { "range": ">7.5", "recommendation": "Soil alkaline → Apply gypsum. Crops: Barley, Cotton" }
+  },
+  "nitrogen": {
+    "low": { "range": "<250", "recommendation": "Low N → Apply Urea/DAP" },
+    "medium": { "range": "250-500", "recommendation": "Medium N → Balanced use" },
+    "high": { "range": ">500", "recommendation": "High N → Reduce usage" }
+  },
+  "zinc": {
+    "deficient": { "range": "<1.0", "recommendation": "Deficient Zn → Apply Zinc Sulphate" }
+  }
+}
