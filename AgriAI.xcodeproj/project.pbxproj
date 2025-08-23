@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AC0D1BC32E597616000B6E19 /* HomeView 2.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0D1BC12E597616000B6E19 /* HomeView 2.swift */; };
-		AC0D1BC42E597616000B6E19 /* ResultsView 2.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0D1BC22E597616000B6E19 /* ResultsView 2.swift */; };
-		AC0D1BC72E59762C000B6E19 /* SoilRecommendations 2.json in Resources */ = {isa = PBXBuildFile; fileRef = AC0D1BC62E59762C000B6E19 /* SoilRecommendations 2.json */; };
-		AC0D1BC82E59762C000B6E19 /* SoilData 2.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0D1BC52E59762C000B6E19 /* SoilData 2.swift */; };
+		AC0D1BC32E597616000B6E19 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0D1BC12E597616000B6E19 /* HomeView.swift */; };
+		AC0D1BC42E597616000B6E19 /* ResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0D1BC22E597616000B6E19 /* ResultsView.swift */; };
+		AC0D1BC72E59762C000B6E19 /* SoilRecommendations.json in Resources */ = {isa = PBXBuildFile; fileRef = AC0D1BC62E59762C000B6E19 /* SoilRecommendations.json */; };
+		AC0D1BC82E59762C000B6E19 /* SoilData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0D1BC52E59762C000B6E19 /* SoilData.swift */; };
 		AC9ABE1E2E54F86700747C83 /* WeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9ABE1D2E54F86700747C83 /* WeatherView.swift */; };
 		AC9ABE202E54F89000747C83 /* InsightsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9ABE1F2E54F89000747C83 /* InsightsView.swift */; };
 		AC9ABE252E54FA8800747C83 /* RotatingGearsLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9ABE242E54FA8800747C83 /* RotatingGearsLoadingView.swift */; };
@@ -28,10 +28,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		AC0D1BC12E597616000B6E19 /* HomeView 2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HomeView 2.swift"; sourceTree = "<group>"; };
-		AC0D1BC22E597616000B6E19 /* ResultsView 2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ResultsView 2.swift"; sourceTree = "<group>"; };
-		AC0D1BC52E59762C000B6E19 /* SoilData 2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SoilData 2.swift"; sourceTree = "<group>"; };
-		AC0D1BC62E59762C000B6E19 /* SoilRecommendations 2.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "SoilRecommendations 2.json"; sourceTree = "<group>"; };
+		AC0D1BC12E597616000B6E19 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		AC0D1BC22E597616000B6E19 /* ResultsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsView.swift; sourceTree = "<group>"; };
+		AC0D1BC52E59762C000B6E19 /* SoilData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoilData.swift; sourceTree = "<group>"; };
+		AC0D1BC62E59762C000B6E19 /* SoilRecommendations.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = SoilRecommendations.json; sourceTree = "<group>"; };
 		AC9ABE1D2E54F86700747C83 /* WeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherView.swift; sourceTree = "<group>"; };
 		AC9ABE1F2E54F89000747C83 /* InsightsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsightsView.swift; sourceTree = "<group>"; };
 		AC9ABE242E54FA8800747C83 /* RotatingGearsLoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotatingGearsLoadingView.swift; sourceTree = "<group>"; };
@@ -108,8 +108,8 @@
 		AC9ABE2E2E54FE5D00747C83 /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				AC0D1BC12E597616000B6E19 /* HomeView 2.swift */,
-				AC0D1BC22E597616000B6E19 /* ResultsView 2.swift */,
+				AC0D1BC12E597616000B6E19 /* HomeView.swift */,
+				AC0D1BC22E597616000B6E19 /* ResultsView.swift */,
 				AC9ABE1D2E54F86700747C83 /* WeatherView.swift */,
 			);
 			path = Home;
@@ -135,8 +135,8 @@
 			isa = PBXGroup;
 			children = (
 				ACACF14F2E056C2D002D6EAF /* AgriAIData.swift */,
-				AC0D1BC52E59762C000B6E19 /* SoilData 2.swift */,
-				AC0D1BC62E59762C000B6E19 /* SoilRecommendations 2.json */,
+				AC0D1BC52E59762C000B6E19 /* SoilData.swift */,
+				AC0D1BC62E59762C000B6E19 /* SoilRecommendations.json */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -252,7 +252,7 @@
 			files = (
 				ACACF1562E056C2D002D6EAF /* Preview Assets.xcassets in Resources */,
 				ACACF1572E056C2D002D6EAF /* Assets.xcassets in Resources */,
-				AC0D1BC72E59762C000B6E19 /* SoilRecommendations 2.json in Resources */,
+				AC0D1BC72E59762C000B6E19 /* SoilRecommendations.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,9 +265,9 @@
 			files = (
 				AC9ABE292E54FAFC00747C83 /* TreeLoadingView.swift in Sources */,
 				ACACF1612E058D3D002D6EAF /* ProfileView.swift in Sources */,
-				AC0D1BC82E59762C000B6E19 /* SoilData 2.swift in Sources */,
-				AC0D1BC32E597616000B6E19 /* HomeView 2.swift in Sources */,
-				AC0D1BC42E597616000B6E19 /* ResultsView 2.swift in Sources */,
+				AC0D1BC82E59762C000B6E19 /* SoilData.swift in Sources */,
+				AC0D1BC32E597616000B6E19 /* HomeView.swift in Sources */,
+				AC0D1BC42E597616000B6E19 /* ResultsView.swift in Sources */,
 				AC9ABE2C2E54FBE200747C83 /* TabBarView.swift in Sources */,
 				AC9ABE202E54F89000747C83 /* InsightsView.swift in Sources */,
 				ACACF1582E056C2D002D6EAF /* AgriAIApp.swift in Sources */,
