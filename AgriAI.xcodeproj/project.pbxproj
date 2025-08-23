@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC0D1BC32E597616000B6E19 /* HomeView 2.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0D1BC12E597616000B6E19 /* HomeView 2.swift */; };
+		AC0D1BC42E597616000B6E19 /* ResultsView 2.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0D1BC22E597616000B6E19 /* ResultsView 2.swift */; };
+		AC0D1BC72E59762C000B6E19 /* SoilRecommendations 2.json in Resources */ = {isa = PBXBuildFile; fileRef = AC0D1BC62E59762C000B6E19 /* SoilRecommendations 2.json */; };
+		AC0D1BC82E59762C000B6E19 /* SoilData 2.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0D1BC52E59762C000B6E19 /* SoilData 2.swift */; };
 		AC9ABE1E2E54F86700747C83 /* WeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9ABE1D2E54F86700747C83 /* WeatherView.swift */; };
 		AC9ABE202E54F89000747C83 /* InsightsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9ABE1F2E54F89000747C83 /* InsightsView.swift */; };
 		AC9ABE252E54FA8800747C83 /* RotatingGearsLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9ABE242E54FA8800747C83 /* RotatingGearsLoadingView.swift */; };
@@ -18,14 +22,16 @@
 		ACACF1582E056C2D002D6EAF /* AgriAIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACACF14E2E056C2D002D6EAF /* AgriAIApp.swift */; };
 		ACACF1592E056C2D002D6EAF /* AgriAIData.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACACF14F2E056C2D002D6EAF /* AgriAIData.swift */; };
 		ACACF15A2E056C2D002D6EAF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACACF1512E056C2D002D6EAF /* ContentView.swift */; };
-		ACACF15B2E056C2D002D6EAF /* DestinationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACACF1522E056C2D002D6EAF /* DestinationView.swift */; };
 		ACACF15C2E056C2D002D6EAF /* OnBoardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACACF1532E056C2D002D6EAF /* OnBoardingView.swift */; };
 		ACACF15D2E056C2D002D6EAF /* StartButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACACF1542E056C2D002D6EAF /* StartButtonView.swift */; };
-		ACACF15F2E056D7F002D6EAF /* DocumentUploadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACACF15E2E056D7F002D6EAF /* DocumentUploadView.swift */; };
 		ACACF1612E058D3D002D6EAF /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACACF1602E058D3D002D6EAF /* ProfileView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AC0D1BC12E597616000B6E19 /* HomeView 2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HomeView 2.swift"; sourceTree = "<group>"; };
+		AC0D1BC22E597616000B6E19 /* ResultsView 2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ResultsView 2.swift"; sourceTree = "<group>"; };
+		AC0D1BC52E59762C000B6E19 /* SoilData 2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SoilData 2.swift"; sourceTree = "<group>"; };
+		AC0D1BC62E59762C000B6E19 /* SoilRecommendations 2.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "SoilRecommendations 2.json"; sourceTree = "<group>"; };
 		AC9ABE1D2E54F86700747C83 /* WeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherView.swift; sourceTree = "<group>"; };
 		AC9ABE1F2E54F89000747C83 /* InsightsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsightsView.swift; sourceTree = "<group>"; };
 		AC9ABE242E54FA8800747C83 /* RotatingGearsLoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotatingGearsLoadingView.swift; sourceTree = "<group>"; };
@@ -37,10 +43,8 @@
 		ACACF14F2E056C2D002D6EAF /* AgriAIData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgriAIData.swift; sourceTree = "<group>"; };
 		ACACF1502E056C2D002D6EAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ACACF1512E056C2D002D6EAF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		ACACF1522E056C2D002D6EAF /* DestinationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationView.swift; sourceTree = "<group>"; };
 		ACACF1532E056C2D002D6EAF /* OnBoardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingView.swift; sourceTree = "<group>"; };
 		ACACF1542E056C2D002D6EAF /* StartButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartButtonView.swift; sourceTree = "<group>"; };
-		ACACF15E2E056D7F002D6EAF /* DocumentUploadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentUploadView.swift; sourceTree = "<group>"; };
 		ACACF1602E058D3D002D6EAF /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		ACE847772DEEA7C80025385B /* AgriAI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AgriAI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -104,8 +108,8 @@
 		AC9ABE2E2E54FE5D00747C83 /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				ACACF15E2E056D7F002D6EAF /* DocumentUploadView.swift */,
-				ACACF1522E056C2D002D6EAF /* DestinationView.swift */,
+				AC0D1BC12E597616000B6E19 /* HomeView 2.swift */,
+				AC0D1BC22E597616000B6E19 /* ResultsView 2.swift */,
 				AC9ABE1D2E54F86700747C83 /* WeatherView.swift */,
 			);
 			path = Home;
@@ -131,6 +135,8 @@
 			isa = PBXGroup;
 			children = (
 				ACACF14F2E056C2D002D6EAF /* AgriAIData.swift */,
+				AC0D1BC52E59762C000B6E19 /* SoilData 2.swift */,
+				AC0D1BC62E59762C000B6E19 /* SoilRecommendations 2.json */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -246,6 +252,7 @@
 			files = (
 				ACACF1562E056C2D002D6EAF /* Preview Assets.xcassets in Resources */,
 				ACACF1572E056C2D002D6EAF /* Assets.xcassets in Resources */,
+				AC0D1BC72E59762C000B6E19 /* SoilRecommendations 2.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,14 +265,15 @@
 			files = (
 				AC9ABE292E54FAFC00747C83 /* TreeLoadingView.swift in Sources */,
 				ACACF1612E058D3D002D6EAF /* ProfileView.swift in Sources */,
+				AC0D1BC82E59762C000B6E19 /* SoilData 2.swift in Sources */,
+				AC0D1BC32E597616000B6E19 /* HomeView 2.swift in Sources */,
+				AC0D1BC42E597616000B6E19 /* ResultsView 2.swift in Sources */,
 				AC9ABE2C2E54FBE200747C83 /* TabBarView.swift in Sources */,
 				AC9ABE202E54F89000747C83 /* InsightsView.swift in Sources */,
 				ACACF1582E056C2D002D6EAF /* AgriAIApp.swift in Sources */,
 				ACACF1592E056C2D002D6EAF /* AgriAIData.swift in Sources */,
 				AC9ABE252E54FA8800747C83 /* RotatingGearsLoadingView.swift in Sources */,
-				ACACF15F2E056D7F002D6EAF /* DocumentUploadView.swift in Sources */,
 				ACACF15A2E056C2D002D6EAF /* ContentView.swift in Sources */,
-				ACACF15B2E056C2D002D6EAF /* DestinationView.swift in Sources */,
 				AC9ABE1E2E54F86700747C83 /* WeatherView.swift in Sources */,
 				AC9ABE272E54FAD600747C83 /* LeafLoadingView.swift in Sources */,
 				ACACF15C2E056C2D002D6EAF /* OnBoardingView.swift in Sources */,
