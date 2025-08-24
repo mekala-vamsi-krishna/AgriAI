@@ -9,21 +9,40 @@ import SwiftUI
 
 
 // MARK: - Tab Bar Item
+import SwiftUI
+
 struct TabBarItem: View {
-    let normalIcon: String
+    let icon: String
     let selectedIcon: String
     let isSelected: Bool
     let action: () -> Void
     
     var body: some View {
-        Button(action: action) {
-            Image(systemName: isSelected ? selectedIcon : normalIcon)
-                .font(.system(size: 28, weight: .semibold))
-                .foregroundColor(isSelected ? .green : .black.opacity(0.7))
-                .frame(maxWidth: .infinity)
+        Button(action: {
+            UIImpactFeedbackGenerator(style: .light).impactOccurred()
+            withAnimation(.spring(response: 0.1, dampingFraction: 0.7)) {
+                action()
+            }
+        }) {
+            ZStack {
+                if isSelected {
+                    Circle()
+                        .fill(Color.green.opacity(0.2))   // background highlight
+                        .frame(width: 70, height: 70)
+                        .transition(.scale.combined(with: .opacity))
+                        .animation(.spring(response: 0.4, dampingFraction: 0.6), value: isSelected)
+                }
+                
+                Image(systemName: isSelected ? selectedIcon : icon)
+                    .font(.system(size: 24, weight: .semibold))
+                    .foregroundColor(isSelected ? .green : .black.opacity(0.7))
+            }
+            .frame(maxWidth: .infinity, maxHeight: 55)
         }
     }
 }
+
+
 
 // MARK: - Tab Bar Shape with Semi-circle Cutout
 struct TabBarShape: Shape {
@@ -92,7 +111,7 @@ struct TabBarView: View {
                 ForEach(leftTabs, id: \.normal) { tab in
                     Spacer()
                     TabBarItem(
-                        normalIcon: tab.normal,
+                        icon: tab.normal,
                         selectedIcon: tab.selected,
                         isSelected: selectedTab == tab.normal || selectedTab == tab.selected
                     ) {
@@ -107,7 +126,7 @@ struct TabBarView: View {
                 ForEach(rightTabs, id: \.normal) { tab in
                     Spacer()
                     TabBarItem(
-                        normalIcon: tab.normal,
+                        icon: tab.normal,
                         selectedIcon: tab.selected,
                         isSelected: selectedTab == tab.normal || selectedTab == tab.selected
                     ) {
